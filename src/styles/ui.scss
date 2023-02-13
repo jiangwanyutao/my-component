@@ -1,0 +1,21 @@
+//修改组件库内部样式
+//1.自定义类名空间
+//2.先在浏览器调试样式,然后复制样式到这里
+//4.app.vue中引入
+//5.在需要的地方使用
+.m-choose-icon-dialog-body-height{
+  .el-dialog__body{
+    height: 500px;
+    overflow: auto;
+  }
+}
+.list-tabs__item{
+  .el-tabs__nav{
+    width: 100%;
+    display: flex;
+  }
+  .el-tabs__item{
+    flex: 1;
+    text-align: center;
+  }
+}
