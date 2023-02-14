@@ -1,10 +1,10 @@
-import { App } from 'vue'
+import {App} from 'vue'
 import chooseArea from "./chooseArea";
 import chooseIcon from "./chooseIcon";
 import trend from "./trend";
 import notification from "./notification";
 import list from "./list";
-
+import menu from "./menu";
 
 
 const components = [
@@ -12,7 +12,8 @@ const components = [
     chooseIcon,
     trend,
     notification,
-    list
+    list,
+    menu
 ]
 
 export default {
