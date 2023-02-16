@@ -28,7 +28,7 @@ export default defineComponent({
         const renderMenu = (data: MenuItem[]) => {
             return data.map((item: MenuItem) => {
                 //每个菜单的图标
-                item.i = `el-icon-${toLine(item.icon!)}`
+                item.i = `el-icon-${toLine(item.icon!)}`;
                 //处理每个菜单的插槽
                 let slots = {
                     title: () => {
